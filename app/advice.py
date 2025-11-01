@@ -38,7 +38,7 @@ def get_advice(text):
         "X-Title": "<YOUR_SITE_NAME>", # Optional. Site title for rankings on openrouter.ai.
       },
       data=json.dumps({
-        "model": "google/gemini-2.5-flash-image-preview:free",
+        "model": "google/gemini-2.5-flash",
         "messages": [
           {
             "role": "user",
